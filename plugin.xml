@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="com.idtechproducts.uniMagPlugin"
+    version="2.1">
+    <name>uniMagPlugin</name>
+    <description>
+        The cordova plugin for the IDTECH uniMag. Can support the 64bit iOS (need the cordova version above 3.8).
+    </description>
+    
+    <keywords>cordova,IDTECH,uniMag</keywords>
+    <js-module src="www/uniMagPlugin.js" name="uniMagPlugin">
+        <clobbers target="UniMag" />
+    </js-module>
+    
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="uniMagPlugin">
+                <param name="ios-package" value="CDVuniMagPlugin"/>
+            </feature>
+        </config-file>
+        
+        <header-file src="src/ios/CDVuniMagPlugin.h"/>
+        <header-file src="src/ios/uniMag.h"/>
+        <source-file src="src/ios/CDVuniMagPlugin.m"/>
+        <source-file src="src/ios/IDTECH_UniMag.a" framework="true"/>
+
+        <framework src="MediaPlayer.framework" />
+        <framework src="AudioToolbox.framework" />
+    </platform>
+</plugin>
