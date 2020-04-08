@@ -1,4 +1,4 @@
-cordova.define("com.idtechproducts.uniMagPlugin.uniMagPlugin", function(require, exports, module) { 
+cordova.define("com.idtechproducts.uniMagPlugin", function(require, exports, module) { 
 /* 
  * Cordova plugin for uniMag.
  * Copyright 2019, IDTECH. All tights reserved.

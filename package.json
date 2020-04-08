@@ -1,7 +1,7 @@
 {
   "name": "uniMagPlugin",
   "version": "2.1",
-  "description": "\n        The cordova plugin for the IDTECH uniMag. Can support the 64bit iOS (need the cordova version above 3.8).\n    ",
+  "description": "The cordova plugin for the IDTECH uniMag. Can support the 64bit iOS (need the cordova version above 3.8).",
   "cordova": {
     "id": "com.idtechproducts.uniMagPlugin",
     "platforms": [
