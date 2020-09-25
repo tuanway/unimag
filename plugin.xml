@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="com.idtechproducts.uniMagPlugin"
-    version="2.1">
+    version="2.1.0">
     <name>uniMagPlugin</name>
     <description>
         The cordova plugin for the IDTECH uniMag. Can support the 64bit iOS (need the cordova version above 3.8).
